@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+/* font-color
+--------------------------------------------------------------------*/
+
+body {
+	background:#EEEEEE;
+	color:#333333;
+}
+
+/* heading
+--------------------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
+	font-weight:normal;
+}
+
+/* normal block
+--------------------------------------------------------------------*/
+
+p {
+	text-align: justify;
+	text-justify: distribute;
+}
+
+/* anchor
+--------------------------------------------------------------------*/
+
+a:link {
+	text-decoration:underline;
+}
+
+a:visited {
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/* table
+--------------------------------------------------------------------*/
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

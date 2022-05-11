@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@500&display=swap');
+
+/* content
+--------------------------------------------------------------------*/
+/*sub page*/
+h1.ch1 {
+    display:block;
+    width:900px;
+    margin:0 auto;
+    color:#000000;
+    font-size:50px;
+    font-family: 'Inter', sans-serif;
+    padding:10px 0 10px 0;
+    font-weight:700;
+}
+h1.n_ch1 span {
+    border-bottom:solid 4px #cccccc;
+}
+@media screen and (max-width: 919px){
+	h1.ch1 {
+		width:auto;
+		padding:10px 10px 10px 10px;
+		font-size:40px;
+	}
+}
+
+/*	notfound
+---------------------------------------------------------------------*/
+section.notfound {
+    padding:20px 0 30px 0;
+    div {
+        width:900px;
+        margin:0 auto;
+        p {
+            font-size:24px;
+            font-family: 'Nunito', sans-serif;
+            margin-bottom:20px;
+            line-height:1.4;
+        }
+        aside {
+            a {
+                background: lightblue;
+                color: white;
+                border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+                padding: 10px 15px 10px 15px;
+                font-size: 18px;
+                text-align: center;
+                box-shadow: 2px 2px #79C8C2;
+                text-decoration: none;
+                &:hover{
+                    background: pink;
+                    box-shadow: none;
+                }
+                &:active {
+                    background: pink;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 919px){
+    section.notfound {
+        div{
+            width: auto;
+            padding:0 20px 0 20px;
+        }
+    }
+}

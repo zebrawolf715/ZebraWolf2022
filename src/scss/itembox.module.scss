@@ -1,0 +1,105 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito:wght@500&display=swap');
+
+/* content 共通
+--------------------------------------------------------------------*/
+/*sub page*/
+h1.ch1 {
+    display:block;
+    width:900px;
+    margin:0 auto;
+    color:#000000;
+    font-size:50px;
+    font-family: 'Inter', sans-serif;
+    padding:10px 0 10px 0;
+    font-weight:700;
+    span {
+        margin: 0 0 20px 0;
+    }
+}
+@media screen and (max-width: 919px){
+	h1.ch1 {
+		width:auto;
+		padding:10px 10px 10px 10px;
+		font-size:40px;
+	}
+}
+//Works
+h1.w_ch1{
+    span {
+	    border-bottom:solid 4px #CCCC00;
+	    font-weight:700;
+    }
+}
+//Art
+h1.i_ch1{
+    span {
+	    border-bottom:solid 4px #CC99CC;
+	    font-weight:700;
+    }
+}
+
+/* itembox
+--------------------------------------------------------------------*/
+section.itembox {
+    article {
+        width:900px;
+        margin:0 auto;
+        padding: 0 0 30px 0;
+        h2 {
+            font-size:32px;
+            text-align:left;
+            line-height:2;
+            color:#79C8C2;
+            font-family: 'Nunito', sans-serif;
+            font-weight:400;
+            text-align:center;
+        }
+        div.img {
+            margin: 20px 0 0 0;
+            text-align: center;
+        }
+        p {
+            font-size: 20px;
+            font-family: 'Nunito', sans-serif;
+            margin: 20px 0 0 0;
+        }
+        div.backbtn{
+            margin: 20px 0 0 0;
+            button {
+                font-size: 18px;
+                text-align: center;
+                background: lightblue;
+                color: white;
+                border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+                padding: 10px 15px 10px 15px;
+                box-shadow: 2px 2px #79C8C2;
+                border: none;
+                display:block;
+                margin: 0 auto;
+                &:hover {
+                    background: pink;
+                    box-shadow: none;
+                }
+                &:active {
+                    background: pink;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 919px){
+    section.itembox {
+        article {
+            width: auto;
+            div {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

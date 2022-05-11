@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* フォント */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Nunito:wght@500&display=swap');
+
+/*	content
+---------------------------------------------------------------------*/
+/*sub page*/
+h1.ch1 {
+    display:block;
+    width:900px;
+    margin:0 auto;
+    color:#000000;
+    font-size:50px;
+    padding:10px 0 10px 0;
+    font-weight:700;
+}
+h1.jp_ch1{
+    span {
+	    border-bottom:solid 4px #3399FF;
+	    font-family: 'Noto Sans Japanese', sans-serif;
+	    font-weight:700;
+    }
+} 
+@media screen and (max-width: 919px){
+	h1.ch1 {
+		width: auto;
+		padding:10px 10px 10px 10px;
+		font-size:40px;
+	}
+}
+
+
+/*	jp_about
+---------------------------------------------------------------------*/
+section.jp_about {
+	margin:0 0 20px 0;
+	font-family: 'Noto Sans JP', sans-serif;
+    div {
+	    width:900px;
+	    margin:0 auto;
+        h2 {
+	        font-size:32px;
+	        text-align:center;
+	        line-height:2;
+	        color:#79C8C2;
+	        margin:0 0 20px 0;
+	        font-family:'Noto Sans Japanese', sans-serif;
+	        font-weight:700;
+        }
+        p {
+	        font-family: 'Noto Sans Japanese', sans-serif;
+	        font-size:18px;
+	        font-weight:normal; 
+            margin: 0 0 15px 0;
+        }
+    }
+    ul {
+	    text-align:center;
+        li {
+	        display:inline-block;
+	        padding:15px 5px 5px 5px;
+            span {
+	            border-radius:5px 5px 5px 5px / 5px 5px 5px 5px;
+	            padding:5px 5px 5px 5px;
+	            font-size:16px;
+	            color:#FFFFFF;
+	            background:#79C8C2;
+				font-family: 'Nunito', sans-serif;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 919px){
+	section.jp_about{
+        div {
+		    width:auto;
+		    padding:0 20px 0 20px;
+	    }
+    } 
+}
+
+
+/*	jp_box
+---------------------------------------------------------------------*/
+section.jp_box {
+	margin:0 0 20px 0;
+    div {
+	    width:900px;
+	    margin:0 auto;
+	    border-radius:10px 10px 10px 10px / 10px 10px 10px 10px;
+	    padding:15px 30px 25px 30px;
+	    background:#EEEEEE;
+        h3 {
+	        text-align:center;
+	        line-height:2;
+	        text-align:center;
+	        font-family: 'Noto Sans Japanese', sans-serif;
+	        font-size:26px;
+	        font-weight:normal;
+        }
+        p {
+	        font-family: 'Noto Sans Japanese', sans-serif;
+	        font-size:16px;
+	        font-weight:normal;
+	        margin:10px 0 0 0;
+        }
+    }
+}
+
+@media screen and (max-width: 919px){
+	section.jp_box {
+		padding:0 20px 0 20px;
+        div {
+		    width:auto;
+	    }
+	}
+}
